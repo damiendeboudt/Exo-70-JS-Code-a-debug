@@ -1,9 +1,9 @@
-let ndiv = document.createElement('div');
-document.getElementByAd('main').appendChild(ndiv);
+let nDiv = document.createElement('div');
+document.getElementById('main').appendChild(nDiv);
 
-ndiv.style.largeur = 152 + 'px';
+nDiv.style.width = "152px";
 
-let "main" = document.getElementBYID(main);
-main.style.height = 956 + 'pixel';
+let main = document.getElementById("main")
+main.style.height = "956px";
+main.style.display = 'block';
 
-main.stile.display = 'block';
